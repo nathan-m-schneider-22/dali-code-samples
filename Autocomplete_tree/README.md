@@ -1,5 +1,5 @@
 
-## Autocomplte Tree
+## Autocomplete Tree
 This code was developed alongside classwork but was entirely beyond the scope of the class, CS50. The class project was to build a quierier. I was curious and I decided to implement an autocomplete feature that would finish your prefix with the most common word in the index that started like that. This is how it was implemented. 
 
 ## Autocomplete implementation
