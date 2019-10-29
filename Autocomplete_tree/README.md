@@ -1,3 +1,6 @@
 
+## Autocomplte Tree
+This code was developed alongside classwork but was entirely beyond the scope of the class, CS50. The class project was to build a quierier. I was curious and I decided to implement an autocomplete feature that would finish your prefix with the most common word in the index that started like that. This is how it was implemented. 
+
 ## Autocomplete implementation
 In order to implement autocomplete, we create a prefix tree. For each word in the index, we find its total frequency. We then follow (or create) nodes in order of the letters. In my tree, each node is marked with the character, and nodes that are the end of words are marked as the full word. These nodes also have frequency values for the number of times it appears in the index. See the image in the repo for more information. To give autocomplete suggestions, we take our prefix and traverse to it's ending character by moving through the tree. From there, a search of the remaining subtree to find the node with the largest frequency gives us the word that begins with our input prefix and is most frequent in the index. The terminal is also set to take one character at a time, with the tree giving suggestions for each character press. 
