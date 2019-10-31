@@ -1,5 +1,13 @@
 from vertex import *
 
+"""
+Nathan Schneider
+network.py
+This network class is the class used to build the entire 
+graph seen in the interface. It supports methods for
+modifying the graph, updating its nodes/edges, and generating
+new graphs quickly. 
+"""
 
 class Network:
     def __init__(self, vertex_count, spacing, degree):

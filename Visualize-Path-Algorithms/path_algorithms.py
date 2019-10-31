@@ -1,6 +1,10 @@
 from collections import deque
 from math import inf
-
+"""
+Nathan Schneider
+path_algorithms.py actually holds the algorithms used by
+the pathfinder class. These are DFS, BFS, Dijkstras, and A*
+"""
 
 def depth_first_search(current_node, end_node, visited):
     visited.append(current_node)

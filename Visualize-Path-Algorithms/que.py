@@ -1,3 +1,12 @@
+"""
+Nathan Schneider
+que.py
+Because I can't just import one like a normal person
+I just had to make one myself thanks a lot"""
+
+
+
+
 class Node:
     def __init__(self, data):
         self.next = None

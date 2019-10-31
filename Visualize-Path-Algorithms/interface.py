@@ -1,6 +1,13 @@
 from network import *
 from pathfinder import *
 from button import *
+"""
+Nathan Schneider
+interface.py
+This is the interface code for the display, with callbacks for
+clicking, mouse interaction and drawing the image
+"""
+
 
 NODE_COUNT = 30
 DEGREE = 2

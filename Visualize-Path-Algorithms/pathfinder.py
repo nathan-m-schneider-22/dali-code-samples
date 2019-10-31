@@ -1,7 +1,12 @@
 from network import *
 from path_algorithms import *
 from que import *
-
+"""
+Nathan Schneider
+pathfinder.py holds the pathfinder class, which returns a shortest
+path between two nodes
+It also animates the path as it was searched 
+"""
 
 class Pathfinder:
     def __init__(self, start_vertex, end_vertex, graph, type):

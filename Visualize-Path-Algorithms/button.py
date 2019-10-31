@@ -1,4 +1,8 @@
 from cs1lib import *
+"""
+Nathan Schneider schnei.nathan@gmail.com
+button.py is a basic GUI button class for
+various interface functions"""
 
 
 class Button:
