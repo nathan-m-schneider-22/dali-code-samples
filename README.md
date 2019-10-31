@@ -1,3 +1,3 @@
 # dali-code-samples
 
-These two code samples both have their own READMEs and comments. 
+These three code samples both have their own READMEs and comments. 
